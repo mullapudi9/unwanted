@@ -1,0 +1,10 @@
+Build Triggers
+Configure Polling:
+
+Set up polling by adding a schedule under "Build Triggers":
+bash
+Copy code
+H/5 * * * *  # Every 5 minutes
+Webhooks:
+
+Set up webhooks in GitHub or other repositories to trigger builds on push events.
